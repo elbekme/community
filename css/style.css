@@ -586,6 +586,107 @@ li {
   width: 2.4rem;
   height: 1rem;
 }
+.container .process {
+  margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
+  width: 100%;
+  height: 66rem;
+}
+.container .process .process-item {
+  width: 130rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.container .process .process-item .pro-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.container .process .process-item p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+}
+.container .process .process-item h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  padding-right: 40%;
+  margin-top: 1.6rem;
+}
+.container .process .process-item h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+  margin-top: 1.6rem;
+  padding-right: 50%;
+  margin-bottom: 6.8rem;
+}
+.container .process .process-item .process-box {
+  width: 100%;
+  height: 16.4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.8rem;
+}
+.container .process .process-item .process-box .process-boxes {
+  z-index: 100;
+  height: 100%;
+  width: 40rem;
+  border: 1px solid rgba(35, 37, 54, 0.17);
+  display: flex;
+  padding-top: 3.2rem;
+  padding-left: 3.2rem;
+  position: relative;
+}
+.container .process .process-item .process-box .process-boxes .pro-num {
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  opacity: 0.2;
+  right: 5%;
+  top: 5%;
+}
+.container .process .process-item .process-box .process-boxes img {
+  width: 4.7rem;
+  height: 4.7rem;
+  margin-right: 1.6rem;
+}
+.container .process .process-item .process-box .process-boxes span h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+.container .process .process-item .process-box .process-boxes span p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #232536;
+  opacity: 0.6;
+  padding-right: 1.1rem;
+}
 .container .testimonials-section {
   width: 100%;
   height: 58.7rem;
@@ -597,10 +698,129 @@ li {
   margin: 0 auto;
   padding-top: 10rem;
 }
-.container .testimonials-section .testimonials-item p {
+.container .testimonials-section .testimonials-item .testimonials-box {
+  width: 100%;
+  height: 37rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-boxes {
+  height: 100%;
+  width: 50rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-boxes p {
   width: 1.6rem;
   height: 1.6rem;
   background: #666DFF;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-boxes h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  margin-top: 1.6rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-boxes h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #232536;
+  margin-top: 1.6rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-boxes h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+  margin-top: 1.6rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-boxes span {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-boxes h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 1.4rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right {
+  padding-top: 4.8rem;
+  padding-left: 6rem;
+  height: 100%;
+  width: 60rem;
+  position: relative;
+  background: #FFFFFF;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .quote {
+  position: absolute;
+  right: 5%;
+  top: -5%;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .circle {
+  position: absolute;
+  bottom: -10%;
+  left: 45%;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .shape-testi {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232536;
+  opacity: 0.87;
+  padding-right: 20%;
+  margin-bottom: 5rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .test-right-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .test-right-bottom .t-left {
+  display: flex;
+  width: 50%;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .test-right-bottom .t-left img {
+  width: 3.8rem;
+  height: 3.8rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .test-right-bottom .t-left span {
+  width: 100%;
+  padding-left: 1.6rem;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .test-right-bottom .t-left span h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  opacity: 0.87;
+  margin-bottom: 0;
+}
+.container .testimonials-section .testimonials-item .testimonials-box .testimonials-right .test-right-bottom .t-right {
+  align-items: center;
+  display: flex;
 }
 .container .cta-section {
   max-width: 100%;
