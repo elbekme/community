@@ -362,7 +362,7 @@ li {
   font-size: 24px;
   line-height: 36px;
   color: #232536;
-  width: 75%;
+  width: 85%;
 }
 
 .great p {
@@ -513,8 +513,8 @@ li {
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  gap: 20px;
-  width: 30%;
+  width: 29%;
+  margin-left: 20px;
 }
 
 .clientat {
@@ -542,4 +542,168 @@ li {
   flex-direction: column;
   padding: 100px 40px;
   gap: 70px;
+}
+
+@media (max-width: 1440px) {
+  .clientat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media (max-width: 1365px) {
+  .digital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .digital img {
+    width: 90%;
+  }
+  .allat h1 {
+    font-size: 36px;
+    margin-left: 100px;
+  }
+  .clientat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .great img {
+    width: 100%;
+  }
+  .great h3 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1250px) {
+  .greatest h3 {
+    font-size: 18px;
+  }
+  .greatest p {
+    font-size: 14px;
+  }
+  .greatest img {
+    width: 98%;
+  }
+  #jon img {
+    width: 15%;
+  }
+  #jon {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1220px) {
+  .figma h3 {
+    font-size: 32px;
+  }
+  .figma p {
+    font-size: 12px;
+  }
+  .figma a {
+    font-size: 16px;
+  }
+  .jonson h5 {
+    font-size: 14px;
+  }
+  .tensat {
+    width: 90%;
+    overflow: hidden;
+  }
+  .tensat img {
+    width: 95%;
+    height: 100%;
+  }
+  .greatest {
+    width: 40%;
+  }
+  .digital {
+    width: 40%;
+  }
+  .officepar img {
+    width: 23%;
+  }
+  .officepar h3 {
+    font-size: 22px;
+  }
+  .officepar p {
+    font-size: 13px;
+    display: flex;
+    gap: 30px;
+    width: 200px;
+  }
+}
+@media (max-width: 1100px) {
+  .postat h1 {
+    font-size: 36px;
+  }
+  .great img {
+    width: 20%;
+  }
+  .great p {
+    font-size: 11px;
+  }
+  .rang h4 {
+    font-size: 24px;
+    width: 80%;
+  }
+  .rang h3 {
+    font-size: 24px;
+    width: 80%;
+  }
+  .rang p {
+    width: 80%;
+    font-size: 11px;
+  }
+  .greatest {
+    width: 35%;
+  }
+}
+@media (max-width: 725px) {
+  .trending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .rang h4 {
+    font-size: 16px;
+  }
+  .rang h3 {
+    font-size: 19px;
+  }
+  .postat h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 580px) {
+  .postat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .oramdigit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .digital {
+    width: 80%;
+  }
+  .clientat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .greatest {
+    width: 80%;
+  }
 }/*# sourceMappingURL=blog.css.map */

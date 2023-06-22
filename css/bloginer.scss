@@ -299,7 +299,7 @@ li {
   font-size: 48px;
   line-height: 58px;
   color: #232536;
-  width: 55%;
+  width: 75%;
 }
 
 .figma p {
@@ -309,7 +309,7 @@ li {
   font-size: 16px;
   line-height: 24px;
   color: #232536aa;
-  width: 55%;
+  width: 75%;
 }
 
 .jonson h5 {
@@ -395,4 +395,87 @@ li {
   flex-direction: column;
   gap: 40px;
   padding-bottom: 100px;
+}
+.tronsformat img {
+  width: 90%;
+}
+
+//////////////////////////
+
+@media (max-width: 980px) {
+  .figma h3 {
+    font-size: 32px;
+  }
+  .figma p {
+    font-size: 14px;
+  }
+  .jonson img {
+    width: 15%;
+  }
+  .jonson h5 {
+    font-size: 14px;
+  }
+  .jonson p {
+    font-size: 11px;
+  }
+  .tronsformat h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 750px) {
+  .figma h3 {
+    font-size: 26px;
+  }
+  .figma p {
+    font-size: 10px;
+  }
+  .jonson h5 {
+    font-size: 10px;
+  }
+  .tronsformat h1 {
+    font-size: 24px;
+  }
+  .tronsformat p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 610px) {
+  .figma h3 {
+    font-size: 19px;
+  }
+  .jonson p {
+    font-size: 10px;
+  }
+  .tronsformat h1 {
+    font-size: 19px;
+  }
+  .tronsformat p {
+    font-size: 12px;
+  }
+  .tronsformat h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .figma h3 {
+    font-size: 15px;
+  }
+  .figma p {
+    font-size: 8px;
+  }
+  .jonson h5 {
+    font-size: 8px;
+  }
+  .tronsformat h1 {
+    font-size: 15px;
+  }
+  .tronsformat p {
+    font-size: 10px;
+  }
+  .tronsformat h4 {
+    font-size: 14px;
+  }
 }
